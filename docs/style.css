@@ -60,13 +60,35 @@ h1 {
   color: #FAFAFA;
 }
 
+.btns-data:active {
+  background-color: #5a2b44 !important;
+  border:none;
+  box-shadow: #FAFAFA;
+}
+
 .btns-data:hover {
-  background-color: #5a2b44;
+  background-color: #5a2b44 !important;
+  border:none;
+  box-shadow: #FAFAFA;
 }
 
 .btn-group {
   position: absolute;
   right: 10px;
+}
+
+.btn-home {
+  background-color: #FAFAFA;
+  color: black;
+  float:right;
+}
+
+.btn-home:active {
+  background-color: #5a2b44;
+}
+
+.btn-home:hover {
+  background-color: rgb(104, 58, 98);
 }
 
 .container-fluid {
@@ -95,16 +117,26 @@ h1 {
 #aboutMe {
   height: inherit;
   width: inherit;
-  /*background: linear-gradient(#37213a, #e7b3e1 );*/
-  /*background: radial-gradient(#422846, #ffc8f9);*/
-  background-color: #FAFAFA;
+  background-color: rgb(22, 20, 20);
   margin-top: 0px;
 
 }
 .aboutMeTitle {
-  margin-top: 3%;
+  margin-top: 0%;
+  padding-top: 2%;
   margin-bottom: 2%;
 }
+
+.fontItalic {
+  font-family: 'Fira Sans', sans-serif;
+  font-style: italic;
+}
+
+.divTitle {
+  padding: 0px;
+}
+
+
 
 @media only screen 
 and (min-device-width : 320px) 
@@ -121,6 +153,7 @@ and (max-device-width : 1224px) {
     height: auto;
     margin-top: 8%;
     margin-left: -1%;
+    display: none;
   }
   
   .img3 {

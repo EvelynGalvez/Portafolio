@@ -24,8 +24,8 @@
     <h1 class="centrado-porcentual">Evelyn Gálvez</h1>
   </div>
 
-  <!-- Pantalla About Me -->
-  <div id="aboutMe" class="container-fluid animated fadeInDown slow">
+  <!-- Inicio pantalla Sobre mí -->
+  <div id="aboutMe" class="pantallas container-fluid animated fadeInDown slow">
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
       <!-- Brand -->
       <a class="navbar-brand" href="#">Sobre mí</a>
@@ -42,10 +42,10 @@
             <a class="nav-link" href="#" onclick="home()">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#" onclick="projects()">Proyectos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Habilidades</a>
           </li> 
         </ul>
       </div> 
@@ -66,21 +66,38 @@
     <div class="row fila">
       <p class="aboutMetext center fontItalic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente esse libero aspernatur saepe cumque quasi quidem consequatur veniam aliquam similique nisi, sed molestias pariatur. Magnam, enim. Deleniti autem ipsum qui.</p>
     </div>
-      
-      
-    <p class="aboutMetext center fontItalic"></p>
   </div>
+  <!-- Fin pantalla Sobre mí -->
 
-  <div id="projects" class="animated fadeIn slower container-fluid">
-    <div class="row">
-      <div class="col-10 divTitle">
-        <h2 class="projectsTitle center">Proyectos</h2>
-      </div>
-      <div class="col-1">
-        <button onclick="home()" type="button" class="col-lg-6 btn-home btn btn-outline-light">Home</button>
-      </div>
-    </div>
+  <!-- Inicio pantalla Proyectos -->
+  <div id="projects" class="pantallas container-fluid animated fadeInDown slow">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <!-- Brand -->
+      <a class="navbar-brand" href="#">Proyectos</a>
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="home()">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="aboutMe()">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="projects()">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Habilidades</a>
+          </li> 
+        </ul>
+      </div> 
+    </nav>
   </div>
+  <!-- Fin pantalla Proyectos-->
   
   <div id="contact" class="animated fadeIn slower">
     <div class="row"><h2 class="contactTitle center col-lg-6">Puedes contactarme aquí</h2><div class="col-lg-3"><button onclick="home()" type="button" class="btn-home btn btn-outline-light">Home</button></div></div>

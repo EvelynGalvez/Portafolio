@@ -75,6 +75,8 @@ h1 {
   background-color: rgb(104, 58, 98);
 }
 
+
+/* Pantalla Sobre mí */
 .container-fluid {
   margin-left: 0px;
   margin-right: 0px;
@@ -89,7 +91,7 @@ h1 {
   margin-right: 5%;
 }
 
-#aboutMe {
+.pantallas {
   height: inherit;
   width: inherit;
   background-color: rgb(199, 181, 201);

@@ -34,24 +34,8 @@ h1 {
 }
 
 .img1 {
-  width: 250px;
+  width: 230px !important;
   height: auto;
-  margin-left: 5%;
-  margin-top: -2%;
-}
-
-.img2 {
-  width: 250px;
-  height: auto;
-  margin-top: 8%;
-  margin-left: -1%;
-}
-
-.img3 {
-  width: 250px;
-  height: auto;
-  margin-top: 18%;
-  margin-left: -32%;
 }
 
 .btns-data {
@@ -98,15 +82,6 @@ h1 {
   display: none;
 }
 
-.carousel-inner{
-  height: 400px;
- }
-
- .carousel-inner img {
-  width: 100%;
-  max-height: 460px;
-}
-
 .center {
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
@@ -117,14 +92,20 @@ h1 {
 #aboutMe {
   height: inherit;
   width: inherit;
-  background-color: rgb(22, 20, 20);
+  background-color: rgb(199, 181, 201);
   margin-top: 0px;
-
 }
+
+.navbar {
+  background-color: #3c1c41 !important;
+}
+
 .aboutMeTitle {
   margin-top: 0%;
   padding-top: 2%;
   margin-bottom: 2%;
+  font-family: 'Courgette', cursive;
+  color: #FAFAFA;
 }
 
 .fontItalic {
@@ -136,16 +117,48 @@ h1 {
   padding: 0px;
 }
 
+.containerBtnRedes {
+  border: none;
+  width: 100%;
+  padding: 0px; 
+}
+
+.linkBtn {
+  padding: 0px;
+  margin: 0px;
+  background-color: #3c1c41;
+  width: 50%;
+  height: 120%;
+  border-radius: 55%;
+}
+
+.icons {
+  font-size: 30px;
+  color: rgb(199, 181, 201);
+  position: relative;
+  margin-top: 10%;
+}
+
+.fila {
+  width: inherit;
+  margin: 0px;
+}
+
+.aboutMetext {
+  color: black;
+  margin-top: 8%;
+}
+
 
 
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 1224px) {
   .img1 {
-    width: 250px;
+    width: 280px;
     height: auto;
     margin-left: 5%;
-    margin-top: -2%;
+    margin-top: 7%;
   }
   
   .img2 {
@@ -158,5 +171,14 @@ and (max-device-width : 1224px) {
   
   .img3 {
     display: none;
+  }
+
+  .btnGithub {
+    margin-right: 5%;
+    display: inline-block;
+  }
+
+  .btnLinkedin {
+    display: inline-block;
   }
 }

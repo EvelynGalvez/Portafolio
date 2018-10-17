@@ -7,12 +7,13 @@
   <title>Document</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Courgette|Roboto+Condensed|Fira+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
   <link rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="animated fadeIn slower" id="particles-js">
+  <div id="particles-js">
 
       <div class="btn-group" role="group" aria-label="Basic example">
           <button type="button" class="btns-data btn btn-secondary" onclick="aboutMe()">Sobre mí</button>
@@ -23,14 +24,51 @@
     <h1 class="centrado-porcentual">Evelyn Gálvez</h1>
   </div>
 
-  <div id="aboutMe" class="animated fadeIn slower container-fluid">
-    <!-- imagenes de ejemplo, cambiar -->
-    <div class="row"><h2 class="aboutMeTitle center col-lg-6">Sobre mí</h2><div class="col-lg-3"><button onclick="home()" type="button" class="btn-home btn btn-outline-light">Home</button></div></div>
-      <div><img src="assets/img/descarga123.png" class="img1 rounded float-left" alt="..."></div>
-      <div><img src="assets/img/descargafotopc.png" class="img2 rounded float-left" alt="..."></div>
-      <div><img src="assets/img/fotomirador.png" class="img3 rounded float-left" alt="..."></div>
+  <!-- Pantalla About Me -->
+  <div id="aboutMe" class="container-fluid animated fadeInDown slow">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <!-- Brand -->
+      <a class="navbar-brand" href="#">Sobre mí</a>
+    
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="home()">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li> 
+        </ul>
+      </div> 
+    </nav>
+    <div class="row fila">
+      <div class="col-12">
+        <img src="assets/img/descarga123.png" class="img1 mx-auto d-block" alt="...">
+      </div>
+    </div>
+    <div class="row fila">
+      <div class="containerBtnRedes col-6 text-center">
+        <a class="btn linkBtn btnGithub text-white" href="#"><i class="icons fab fa-github-square"></i></a>
+      </div>    
+      <div class="col-6 containerBtnRedes text-center">
+        <a class="btn linkBtn btnLinkedin text-white" href="#"><i class="icons fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    <div class="row fila">
+      <p class="aboutMetext center fontItalic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente esse libero aspernatur saepe cumque quasi quidem consequatur veniam aliquam similique nisi, sed molestias pariatur. Magnam, enim. Deleniti autem ipsum qui.</p>
+    </div>
       
-    <p class="aboutMetext center fontItalic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolore magni nobis quas distinctio? Praesentium cumque quae porro quisquam totam? Aspernatur nihil cupiditate est numquam. Dolore recusandae nihil fugit quae.</p>
+      
+    <p class="aboutMetext center fontItalic"></p>
   </div>
 
   <div id="projects" class="animated fadeIn slower container-fluid">

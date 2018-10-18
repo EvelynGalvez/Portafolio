@@ -1,113 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Courgette|Roboto+Condensed|Fira+Sans" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-  <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div id="particles-js">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Roboto+Condensed|Fira+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+      <div id="portada">
+          <div id="particles-js">
 
-      <div class="btn-group" role="group" aria-label="Basic example">
-          <button type="button" class="btns-data btn btn-secondary" onclick="aboutMe()">Sobre mí</button>
-          <button type="button" class="btns-data btn btn-secondary" onclick="projects()">Proyectos</button>
-          <button type="button" class="btns-data btn btn-secondary" onclick="contact()">Contacto</button>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btns-data btn btn-secondary" onclick="aboutMe()">Sobre mí</button>
+                  <button type="button" class="btns-data btn btn-secondary" onclick="projects()">Proyectos</button>
+                  <button type="button" class="btns-data btn btn-secondary" onclick="contact()">Contacto</button>
+                </div>
+      
+            <h1 class="centrado-porcentual">Evelyn Gálvez</h1>
+            <div class="div-invisible"></div>
+          </div>
+          
+      </div>
+
+  
+      <!-- Inicio pantalla Sobre mí -->
+      <div id="aboutMe" class="pantallas container-fluid animated fadeInDown slow">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+          <!-- Brand -->
+          <a class="navbar-brand" href="#">Sobre mí</a>
+        
+          <!-- Toggler/collapsibe Button -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <!-- Navbar links -->
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#" onclick="home()">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" onclick="projects()">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Habilidades</a>
+              </li> 
+            </ul>
+          </div> 
+        </nav>
+        <div class="row fila">
+          <div class="col-12">
+            <img src="assets/img/descarga123.png" class="img1 mx-auto d-block" alt="...">
+          </div>
         </div>
-
-    <h1 class="centrado-porcentual">Evelyn Gálvez</h1>
-  </div>
-
-  <!-- Inicio pantalla Sobre mí -->
-  <div id="aboutMe" class="pantallas container-fluid animated fadeInDown slow">
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-      <!-- Brand -->
-      <a class="navbar-brand" href="#">Sobre mí</a>
-    
-      <!-- Toggler/collapsibe Button -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <!-- Navbar links -->
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#" onclick="home()">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" onclick="projects()">Proyectos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Habilidades</a>
-          </li> 
-        </ul>
-      </div> 
-    </nav>
-    <div class="row fila">
-      <div class="col-12">
-        <img src="assets/img/descarga123.png" class="img1 mx-auto d-block" alt="...">
+        <div class="row fila">
+          <div class="containerBtnRedes col-6 text-center">
+            <a class="btn linkBtn btnGithub text-white" href="#"><i class="icons fab fa-github-square"></i></a>
+          </div>    
+          <div class="col-6 containerBtnRedes text-center">
+            <a class="btn linkBtn btnLinkedin text-white" href="#"><i class="icons fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="row fila">
+          <p class="aboutMetext center fontItalic"><span class="saludo">Hola</span>, mi nombre es Evelyn</p>
+        </div>
       </div>
-    </div>
-    <div class="row fila">
-      <div class="containerBtnRedes col-6 text-center">
-        <a class="btn linkBtn btnGithub text-white" href="#"><i class="icons fab fa-github-square"></i></a>
-      </div>    
-      <div class="col-6 containerBtnRedes text-center">
-        <a class="btn linkBtn btnLinkedin text-white" href="#"><i class="icons fab fa-linkedin-in"></i></a>
+      <!-- Fin pantalla Sobre mí -->
+  
+      <!-- Inicio pantalla Proyectos -->
+      <div id="projects" class="container-fluid pantallas animated fadeInDown slow">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+          <!-- Brand -->
+          <a class="navbar-brand" href="#">Proyectos</a>
+          <!-- Toggler/collapsibe Button -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Navbar links -->
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#" onclick="home()">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" onclick="aboutMe()">Sobre mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" onclick="projects()">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Habilidades</a>
+              </li> 
+            </ul>
+          </div> 
+        </nav>
+  
+        <div class="row fila">
+          <div class="col-12 projects"><img src="assets/img/proyecto-peliculas.png" class="imgProject mx-auto d-block" alt="..."></div>
+        </div>
+        <div class="row fila">
+          <div class="col-12"><h3>Buscador de películas</h3></div>
+        </div>
+        <div class="row fila">
+          <div class="col-12 projects"><img src="assets/img/Interpet.png" class="imgProject mx-auto d-block" alt="..."></div>
+        </div>
+        <div class="row fila">
+          <div class="col-12"><h3>Interpet Social Network</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores accusantium rerum a aliquid illo ut ex dignissimos nam? Commodi cumque iste quae aut illo officia, possimus necessitatibus libero distinctio cupiditate!</p></div>
+        </div>
+        <div class="row fila">
+          <div class="col-12 projects"><img src="assets/img/trello.png" class="imgProject mx-auto d-block" alt="..."></div>
+        </div>
+        <div class="row fila">
+          <div class="col-12"><h3>Réplica de tablero Trello</h3></div>
+        </div>
       </div>
-    </div>
-    <div class="row fila">
-      <p class="aboutMetext center fontItalic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente esse libero aspernatur saepe cumque quasi quidem consequatur veniam aliquam similique nisi, sed molestias pariatur. Magnam, enim. Deleniti autem ipsum qui.</p>
-    </div>
-  </div>
-  <!-- Fin pantalla Sobre mí -->
-
-  <!-- Inicio pantalla Proyectos -->
-  <div id="projects" class="pantallas container-fluid animated fadeInDown slow">
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-      <!-- Brand -->
-      <a class="navbar-brand" href="#">Proyectos</a>
-      <!-- Toggler/collapsibe Button -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- Navbar links -->
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#" onclick="home()">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" onclick="aboutMe()">Sobre mí</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" onclick="projects()">Proyectos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Habilidades</a>
-          </li> 
-        </ul>
-      </div> 
-    </nav>
-  </div>
-  <!-- Fin pantalla Proyectos-->
-  
-  <div id="contact" class="animated fadeIn slower">
-    <div class="row"><h2 class="contactTitle center col-lg-6">Puedes contactarme aquí</h2><div class="col-lg-3"><button onclick="home()" type="button" class="btn-home btn btn-outline-light">Home</button></div></div>
-  </div>
-  
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="lib/particles.js"></script>
-  <script type="text/javascript" src="lib/app.js"></script>
-  <script type="text/javascript" src="app.js"></script>
-</body>
+    <!-- Fin pantalla Proyectos-->
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="lib/particles.js"></script>
+    <script type="text/javascript" src="lib/app.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
 </html>

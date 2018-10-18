@@ -265,27 +265,40 @@ h1 {
 .font-text {
   font-family: 'Fira Sans', sans-serif;
 }
+
+.img1 {
+  width: 280px;
+  height: auto;
+  margin-left: 5%;
+  margin-top: 7%;
+}
+
+.btnGithub {
+  margin-right: 5%;
+  display: inline-block;
+}
+
+.btnLinkedin {
+  display: inline-block;
+}
   
-  /* Pantalla Proyectos */
-  .imgProject {
-    margin-top: 5%;
-    width: 250px;
-    height: auto;
-  }
-  
+/* Pantalla Proyectos */
+.imgProject {
+  margin-top: 5%;
+  width: 250px;
+  height: auto;
+}
 
-  .img1 {
-    width: 280px;
-    height: auto;
-    margin-left: 5%;
-    margin-top: 7%;
-  }
+.title-project {
+  font-size: 130%;
+  margin-top: 2%;
+  text-align: center;
+  color: #58235f;
+}
 
-  .btnGithub {
-    margin-right: 5%;
-    display: inline-block;
-  }
+.project-text {
+  text-align: center;
+}
 
-  .btnLinkedin {
-    display: inline-block;
-  }
+
+

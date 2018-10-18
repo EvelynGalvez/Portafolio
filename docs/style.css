@@ -140,26 +140,26 @@ h1 {
   padding: 0px; 
 }
   
-  .linkBtn {
-    padding: 0px;
-    margin: 0px;
-    background-color: #3c1c41;
-    width: 50%;
-    height: 120%;
-    border-radius: 55%;
-  }
+.linkBtn {
+  padding: 0px;
+  margin: 0px;
+  background-color: #3c1c41;
+  width: 50%;
+  height: 120%;
+  border-radius: 55%;
+}
   
-  .icons {
-    font-size: 30px;
-    color: rgb(199, 181, 201);
-    position: relative;
-    margin-top: 10%;
-  }
+.icons {
+  font-size: 30px;
+  color: rgb(199, 181, 201);
+  position: relative;
+  margin-top: 10%;
+}
   
-  .fila {
-    width: inherit;
-    margin: 0px;
-  }
+.fila {
+  width: inherit;
+  margin: 0px;
+}
   
 .aboutMetext {
   margin-top: 0%;
@@ -212,6 +212,58 @@ h1 {
   font-family: 'Fira Sans', sans-serif;
   font-size: 150%;
   color: #3c1c41;
+}
+
+.row-skills {
+  margin-top: 2%;
+  text-align: center;
+}
+
+.div-js {
+  background-color: black;
+  padding: 0px;
+  width: 62px;
+  height: 50px;
+  position: relative;
+  top: -60px;
+  left: 28px;
+  z-index: -2;
+}
+
+.icons-skills-div {
+  padding: 2%;
+  width: 100%;
+}
+
+.icons-skills {
+  font-size: 100px;
+}
+
+.icon-html5 {
+  color: #E54C21;
+}
+
+.icon-js {
+  color: #F7DF1E;
+  font-size: 100px;
+}
+
+.icon-css3 {
+  color: #01ACE4;
+}
+
+.tools-tech {
+  font-size: 120%;
+  font-weight: bold;
+  margin-bottom: 6%;
+}
+
+.skills {
+  margin-left: 4%;
+}
+
+.font-text {
+  font-family: 'Fira Sans', sans-serif;
 }
   
   /* Pantalla Proyectos */

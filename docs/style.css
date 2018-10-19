@@ -1,3 +1,4 @@
+/*cuerpo y contenedores principales*/ 
 html {
   margin: 0px;
   padding: 0px;
@@ -7,6 +8,52 @@ html {
 }
   
 body {
+  margin: inherit;
+  padding: inherit;
+  height: 100%;
+  width: inherit;
+}
+
+.container-fluid {
+  height: auto;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
+}
+
+.pantallas {
+  height: auto;
+  width: inherit;
+  background-color: rgba(209, 192, 211, 0.658);
+  margin-top: 0px;
+  padding: inherit;
+  display: none;
+}
+/**/
+
+/*Estilos*/
+.font-title {
+  font-family: 'Courgette', cursive;
+}
+
+h1 {
+  color: #FAFAFA;
+  position: absolute;
+  font-size: 250%;
+}
+
+.fontItalic {
+  font-family: 'Fira Sans', sans-serif;
+  font-style: italic;
+}
+
+.font-text {
+  font-family: 'Fira Sans', sans-serif;
+}
+/**/
+
+/*Pantalla de inicio*/
+#portada {
   margin: inherit;
   padding: inherit;
   height: 100%;
@@ -27,44 +74,7 @@ top: 0px;
 z-index: 0;
 }
 
-.pantallas {
-  height: auto;
-  width: inherit;
-  background-color: rgba(209, 192, 211, 0.658);
-  margin-top: 0px;
-  padding: inherit;
-  display: none;
-}
-
-#portada {
-  margin: inherit;
-  padding: inherit;
-  height: 100%;
-  width: inherit;
-}
-
-.container-fluid {
-  height: auto;
-  margin-left: 0px;
-  margin-right: 0px;
-  padding: 0px;
-}
-
-#aboutMe {
-  margin: inherit;
-  padding: inherit;
-  min-height: 100%;
-  height: auto;
-  width: inherit;
-}
-
-h1 {
-  color: #FAFAFA;
-  position: absolute;
-  font-size: 250%;
-  font-family: 'Courgette', cursive;
-}
-  
+/*Centrado nombre en portada*/
 .centrado-porcentual {
   position: absolute;
   left: 50%;
@@ -72,12 +82,8 @@ h1 {
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
 }
-  
-.img1 {
-  width: 230px !important;
-  height: auto;
-}
-  
+
+/*Grupo de botones esquina superior portada*/
 .btns-data {
   background-color: #3c1c41;
   border: none;
@@ -101,22 +107,23 @@ h1 {
   position: absolute;
   right: 10px;
 }
-  
-.btn-home {
-  background-color: #FAFAFA;
-  color: black;
-  float:right;
-}
-  
-.btn-home:active {
-  background-color: #5a2b44;
-}
-  
-.btn-home:hover {
-  background-color: rgb(104, 58, 98);
-}
-  
+/**/
+
 /* Pantalla Sobre mí */
+#aboutMe {
+  margin: inherit;
+  padding: inherit;
+  min-height: 100%;
+  height: auto;
+  width: inherit;
+}
+
+.img1 {
+  width: 230px !important;
+  height: auto;
+  margin-left: 5%;
+  margin-top: 7%;
+}
   
 .center {
   text-align: center;
@@ -129,33 +136,6 @@ h1 {
   background-color: #3c1c41 !important;
 }
   
-.fontItalic {
-  font-family: 'Fira Sans', sans-serif;
-  font-style: italic;
-}
-  
-.containerBtnRedes {
-  border: none;
-  width: 100%;
-  padding: 0px; 
-}
-  
-.linkBtn {
-  padding: 0px;
-  margin: 0px;
-  background-color: #3c1c41;
-  width: 50%;
-  height: 120%;
-  border-radius: 55%;
-}
-  
-.icons {
-  font-size: 30px;
-  color: rgb(199, 181, 201);
-  position: relative;
-  margin-top: 10%;
-}
-  
 .fila {
   width: inherit;
   margin: 0px;
@@ -165,8 +145,10 @@ h1 {
   margin-top: 0%;
   margin-bottom: 0%;
   margin-left: 4%;
+  margin-right: 4%;
   font-size: 100%;
   color: rgba(51, 51, 51, 0.836);
+  text-align: justify;
 }
 
 .aboutMetext2 {
@@ -174,8 +156,10 @@ h1 {
   margin-top: 2%;
   margin-bottom: 0%;
   margin-left: 4%;
+  margin-right: 4%;
   font-size: 90%;
   color: #333;
+  text-align: justify;
 }
 
 .conceptos {
@@ -183,29 +167,55 @@ h1 {
   font-size: 100%;
 }
 
-.saludo {
+.perfil {
   font-size: 280%;
+  margin-left: 2%;
   margin-top: 8%;
   margin-bottom: 0px;
   color: #58235f;
 }
 
+/*Sección herramientas y conocimientos*/
 .tools {
   margin-bottom: 4%;
   background-color: #3c1c41;
   border-radius: 50%;
-  width: 100%;
-  height: 150%;
+  width: 40px;
+  height: 40px;
+  padding-top: 4px;
 }
 
 .toolsDiv {
-  margin-top: 3%;
-  padding: 2%;
+  margin-top: 0%;
+  padding: 0%;
 }
 
 .row-title {
   margin-top: 12%;
-  background-color: rgb(173, 137, 177);
+  border: 1px solid #58235f;
+  border-radius: 8px;
+  margin-right: 4%;
+  margin-left: 4%;
+  width: auto;
+  align-items: center;
+}
+
+.div-title-skills {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-left: 6%;
+  margin-top: 2%;
+}
+
+.title-skills {
+  font-size: 110%;
+}
+
+.icon-tools {
+  font-size: 22px;
+  color: rgb(199, 181, 201);
+  position: relative;
+  margin-top: 12%;
 }
 
 .title {
@@ -214,74 +224,17 @@ h1 {
   color: #3c1c41;
 }
 
-.row-skills {
-  margin-top: 2%;
-  text-align: center;
+.container-tech {
+ margin-top: 7%;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 86%;
+ height: 300px;
+ background-color: rgba(250, 250, 250, 0.808);
+ border-radius: 8px;
 }
 
-.div-js {
-  background-color: black;
-  padding: 0px;
-  width: 62px;
-  height: 50px;
-  position: relative;
-  top: -60px;
-  left: 28px;
-  z-index: -2;
-}
-
-.icons-skills-div {
-  padding: 2%;
-  width: 100%;
-}
-
-.icons-skills {
-  font-size: 100px;
-}
-
-.icon-html5 {
-  color: #E54C21;
-}
-
-.icon-js {
-  color: #F7DF1E;
-  font-size: 100px;
-}
-
-.icon-css3 {
-  color: #01ACE4;
-}
-
-.tools-tech {
-  font-size: 120%;
-  font-weight: bold;
-  margin-bottom: 6%;
-}
-
-.skills {
-  margin-left: 4%;
-}
-
-.font-text {
-  font-family: 'Fira Sans', sans-serif;
-}
-
-.img1 {
-  width: 280px;
-  height: auto;
-  margin-left: 5%;
-  margin-top: 7%;
-}
-
-.btnGithub {
-  margin-right: 5%;
-  display: inline-block;
-}
-
-.btnLinkedin {
-  display: inline-block;
-}
-  
 /* Pantalla Proyectos */
 .imgProject {
   margin-top: 5%;
@@ -326,6 +279,31 @@ h1 {
 
 .btns-contact {
   margin-top: 15%;
+}
+
+.linkBtn {
+  padding: 0px;
+  margin: 0px;
+  background-color: #3c1c41;
+  width: 70px;
+  height: 70px;
+  border-radius: 200px;
+}
+  
+.icons {
+  font-size: 30px;
+  color: rgb(199, 181, 201);
+  position: relative;
+  margin-top: 28%;
+}
+
+.btnGithub {
+  margin-right: 5%;
+  display: inline-block;
+}
+
+.btnLinkedin {
+  display: inline-block;
 }
 
 

@@ -13,34 +13,24 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    
-      <div id="portada">
-          <div id="particles-js">
-
-              <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btns-data btn btn-secondary" onclick="aboutMe()">Sobre mí</button>
-                  <button type="button" class="btns-data btn btn-secondary" onclick="projects()">Proyectos</button>
-                  <button type="button" class="btns-data btn btn-secondary" onclick="contact()">Contacto</button>
-                </div>
-      
-            <h1 class="centrado-porcentual">Evelyn Gálvez</h1>
-          </div>
-          
+    <div id="portada">
+      <div id="particles-js">
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <button type="button" class="btns-data btn btn-secondary" onclick="aboutMe()">Sobre mí</button>
+          <button type="button" class="btns-data btn btn-secondary" onclick="projects()">Proyectos</button>
+          <button type="button" class="btns-data btn btn-secondary" onclick="contact()">Contacto</button>
+        </div>
+        <h1 class="centrado-porcentual font-title">Evelyn Gálvez</h1>
       </div>
+    </div>
 
-  
-      <!-- Inicio pantalla Sobre mí -->
-      <div id="aboutMe" class="pantallas container-fluid animated fadeInDown slow">
-        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-          <!-- Brand -->
-          <a class="navbar-brand" href="#">Sobre mí</a>
-        
-          <!-- Toggler/collapsibe Button -->
+    <!-- Inicio pantalla Sobre mí -->
+    <div id="aboutMe" class="pantallas container-fluid">
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">Sobre mí</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
-        
-          <!-- Navbar links -->
           <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
               <li class="nav-item">
@@ -54,70 +44,32 @@
               </li> 
             </ul>
           </div> 
-        </nav>
-        <div class="row fila">
-          <div class="col-12">
-            <img src="assets/img/descarga123.png" class="img1 mx-auto d-block" alt="...">
+      </nav>
+      <div class="row fila">
+        <div class="col-12 animated fadeIn">
+          <img src="assets/img/descarga123.png" class="img1 mx-auto d-block" alt="...">
+        </div>
+      </div>
+          <p class="perfil font-title">Perfil</p>
+          <p class="aboutMetext fontItalic">Soy desarrolladora front-end, egresada de Laboratoria. Vivo en Santiago de Chile, amante de la tecnología y la naturaleza.</p>
+          <p class="aboutMetext2 fontItalic">Autodidacta y dedicada, mi trabajo siempre integrará <span class="conceptos">diseño de experiencia de usuario, usabilidad y accesibilidad</span>.</p>
+          <p class="aboutMetext2 fontItalic">Soy una persona inquieta, apasionada por los viajes, el código y el trekking.</p>
+        <div class="row fila row-title">
+          <div class="col-2 toolsDiv">
+            <div class="tools text-center"><i class="icon-tools fas fa-wrench"></i></div>
+          </div>
+          <div class="col-9 div-title-skills">
+            <p class="font-title title-skills">Habilidades y Conocimientos</p>
           </div>
         </div>
-        <div class="row fila">
-          <div class="containerBtnRedes col-6 text-center">
-            <a class="btn linkBtn btnGithub text-white" href="https://github.com/EvelynGalvez/"><i class="icons fab fa-github"></i></a>
-          </div>    
-          <div class="col-6 containerBtnRedes text-center">
-            <a class="btn linkBtn btnLinkedin text-white" href="https://www.linkedin.com/in/evelyn-galvez-ponce/"><i class="icons fab fa-linkedin-in"></i></a>
-          </div>
+        <div class="container-tech">
+          lallala
         </div>
-          <p class="aboutMetext saludo">Hola,</p>
-          <p class="aboutMetext fontItalic">Soy desarrolladora front-end, egresada de Laboratoria. Vivo en Santiago de Chile, amante de la tecnología y la naturaleza. </p>
-          <p class="aboutMetext2">Autodidacta y dedicada, mi trabajo siempre integrará <span class="conceptos">diseño de experiencia de usuario, usabilidad y accesibilidad</span>.</p>
-
-          <div class="row fila row-title">
-            <div class="col-3 toolsDiv">
-              <h3><div class="tools text-center"><i class="icons fas fa-wrench"></i></div></h3>
-            </div>
-            <div class="col-9">
-              <p class="title">Habilidades y Conocimientos</p>
-            </div>
-          </div>
-            <div class="row fila row-skills">
-              <div class="col-4 icons-skills-div"><i class="icons-skills icon-html5 fab fa-html5"></i></div>
-              <div class="col-4 icons-skills-div"><i class="icon-js fab fa-js-square"></i><div class="div-js"></div></div>
-              <div class="col-4 icons-skills-div"><i class="icons-skills icon-css3 fab fa-css3-alt"></i></div>
-            </div>
-            <div class="row fila skills">
-              <h3 class="tools-tech font-text">Herramientas y tecnologías</h3>
-            </div>
-            <div class="row fila skills">
-              <ul class="font-text col-6">
-                <li>Angular</li>
-                <li>Bootstrap</li>
-                <li>Git y Github</li>
-                <li>AJAX</li>
-              </ul>
-              <ul class="font-text col-6">
-                <li>Nodejs</li>
-                <li>JSON</li>
-                <li>Firebase</li>
-                <li>Slack</li>
-              </ul>
-            </div>
-            <div class="row fila skills">
-              <h3 class="tools-tech font-text">Metodologías y habilidades</h3>
-            </div>
-            <div class="row fila skills">
-              <ul class="font-text col-6">
-                <li>Metodología Scrum</li>
-                <li>Planificación de proyectos</li>
-                <li>Manejo de paquetes (NPM)</li>
-                <li>HTTP, JSON y consumo de APIs</li>
-              </ul>
-            </div> 
       </div>
       <!-- Fin pantalla Sobre mí -->
   
       <!-- Inicio pantalla Proyectos -->
-      <div id="projects" class="container-fluid pantallas animated fadeInDown slow">
+      <div id="projects" class="container-fluid pantallas">
         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
           <!-- Brand -->
           <a class="navbar-brand" href="#">Proyectos</a>

@@ -50,6 +50,10 @@ h1 {
 .font-text {
   font-family: 'Fira Sans', sans-serif;
 }
+
+.color-font {
+  color: #17A2B8;
+}
 /**/
 
 /*Pantalla de inicio*/
@@ -340,17 +344,13 @@ z-index: 0;
 
   .card-responsive-design {
     margin-top: 10%;
-    margin-left: 25%;
+    margin-left: 26%;
     border: 0.5px solid #764e7c;
   }
 
   .card-header {
     padding-bottom: 2px;
     background-color: #FAFAFA;
-  }
-
-  .color-font {
-    color: #17A2B8;
   }
 
   .card-body {
@@ -454,5 +454,38 @@ z-index: 0;
 
   .text-contact {
     margin-left: 10%;
+  }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+  .fila-responsive-design {
+    margin-top: 5%;
+  }
+
+  .img-responsive {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .card-responsive-design {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #aboutMe {
+    margin: inherit;
+    padding-bottom: 40px;
+    min-height: 100%;
+    height: auto;
+    width: inherit;
+  }
+
+  .container-tech {
+    height: 500px;
+  }
+
+  .margin-icon {
+    margin-top: 3%;
   }
 }

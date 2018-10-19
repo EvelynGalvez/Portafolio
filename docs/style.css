@@ -54,6 +54,14 @@ h1 {
 .color-font {
   color: #17A2B8;
 }
+
+.card-header {
+  background-color: #FAFAFA;
+}
+
+.card-body {
+  background-color: #FAFAFA;
+}
 /**/
 
 /*Pantalla de inicio*/
@@ -470,7 +478,7 @@ z-index: 0;
   }
 
   .card-project {
-    height: 480px;
+    height: 520px;
     display: block;
     margin-left: auto;
     margin-right: auto;

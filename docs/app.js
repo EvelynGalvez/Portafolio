@@ -27,3 +27,9 @@ const contact = () => {
   document.getElementById('projects').style.display = 'none';
   document.getElementById('aboutMe').style.display = 'none';
 }
+
+$(document).ready(function(){
+	$(".cerrarMenu").click(function () {
+			$('.navbar-toggle').click();
+	});
+});

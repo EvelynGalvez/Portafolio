@@ -308,6 +308,24 @@ z-index: 0;
   margin-right: 5%;
 }
 
+.zoom {
+  -webkit-transform: scale(1,1);
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 250ms;
+  -moz-transform: scale(1,1);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 250ms;
+}
+
+.zoom:hover {
+  -webkit-transform: scale(1.3,1.3);
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 100ms;
+  -moz-transform: scale(1.3,1.3);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 100ms;
+}
+
 
 /*Versión desktop*/
 @media only screen and (min-width: 1140px) {

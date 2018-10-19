@@ -178,7 +178,7 @@ z-index: 0;
 /*Sección herramientas y conocimientos*/
 .tools {
   margin-bottom: 4%;
-  background-color: #3c1c41;
+  background-color: #543458;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -233,6 +233,31 @@ z-index: 0;
  height: 300px;
  background-color: rgba(250, 250, 250, 0.808);
  border-radius: 8px;
+}
+
+.background-icon-js {
+  background-color: yellow;
+}
+
+.icons-tech {
+  margin-top: 10%;
+  font-size: 70px !important;
+}
+
+.fa-js-square {
+  color: #F7DF1E;
+}
+
+.fa-html5 {
+  color: #FE4C1E;
+}
+
+.fa-css3 {
+  color: #0096D1;
+}
+
+.fa-angular {
+  color:#DD0031;
 }
 
 /* Pantalla Proyectos */

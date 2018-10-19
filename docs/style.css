@@ -363,15 +363,21 @@ z-index: 0;
     margin-top: 7%;
     margin-left: 1%;
     margin-right: 1%;
-    padding-left: 3%;
-    padding-right: 10%;
+    padding-left: 0%;
+    padding-right: 0%;
     background-color: #FAFAFA;
+    width: auto;
   }
 
   .card-responsive-design {
-    margin-top: 10%;
-    margin-left: 26%;
-    border: 0.5px solid #764e7c;
+    margin-top: 35%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid #764e7c;
+  }
+
+  .div-responsive-design {
+    width: 100%;
   }
 
   .card-header {

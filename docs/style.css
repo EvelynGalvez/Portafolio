@@ -365,6 +365,20 @@ z-index: 0;
   .card {
     margin-top: 10%;
     margin-left: 25%;
+    border: 0.5px solid #764e7c;
+  }
+
+  .card-header {
+    padding-bottom: 2px;
+    background-color: #FAFAFA;
+  }
+
+  .color-font {
+    color: #17A2B8;
+  }
+
+  .card-body {
+    padding-top: 4px;
   }
 
   /* for laptop..*/

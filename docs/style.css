@@ -409,9 +409,13 @@ z-index: 0;
    }
 
    .icons-tech {
-     font-size: 90px;
-   }
+    margin-top: 10%;
+    font-size: 100px !important;
+  }
 
+   .margin-icon {
+     margin-top: 4%;
+   }
   /* for laptop..*/
 
 }

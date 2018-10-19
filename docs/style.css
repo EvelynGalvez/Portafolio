@@ -284,26 +284,6 @@ z-index: 0;
   width: inherit;
 }
 
-.title-contact {
-  font-size: 200%;
-  margin-top: 4%;
-  margin-left: 4%;
-  color: #58235f;
-}
-
-.email {
-  color: #58235f;
-}
-
-.text-contact {
-  margin-left: 3%;
-  margin-top: 3%;
-}
-
-.btns-contact {
-  margin-top: 15%;
-}
-
 .linkBtn {
   padding: 0px;
   margin: 0px;
@@ -322,12 +302,8 @@ z-index: 0;
 
 .btnGithub {
   margin-right: 5%;
-  display: inline-block;
 }
 
-.btnLinkedin {
-  display: inline-block;
-}
 
 /*Versión desktop*/
 @media only screen and (min-width: 1140px) {
@@ -449,4 +425,34 @@ z-index: 0;
     height: 480px;
   }
 
+  .linkBtn {
+    padding: 0px;
+    margin: 0px;
+    background-color: #3c1c41;
+    width: 140px;
+    height: 140px;
+    border-radius: 200px;
+  }
+
+  .icons {
+    font-size: 70px;
+    margin-top: 23%;
+  }
+
+  .icon-linkedin {
+    margin-top: 40%;
+    margin-left: -70%;
+  }
+
+  .contactame {
+    margin-left: 10%;
+  }
+
+  .link-mail {
+    margin-left: 250%;
+  }
+
+  .text-contact {
+    margin-left: 10%;
+  }
 }

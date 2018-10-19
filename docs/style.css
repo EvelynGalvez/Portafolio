@@ -441,7 +441,7 @@ z-index: 0;
   }
 
   .row-projects {
-    margin-top: 2%;
+    margin-top: 1%;
     padding-left: 6%;
   }
 
@@ -520,5 +520,15 @@ z-index: 0;
 
   .margin-icon {
     margin-top: 3%;
+  }
+
+  .font-project {
+    font-size: 150%;
+    margin-top: 3%;
+    margin-bottom: 0px;
+    color: #58235f;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
